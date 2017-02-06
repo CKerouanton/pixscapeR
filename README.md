@@ -2,7 +2,8 @@
 
 ## Overview
 
-For <a href="https://cybergeo.revues.org/27862"> their article </a>, Sahraoui et al. (2016) developped a java software for landscape visibility analysis : <b> Pixscape </b>. The .jar is available <a href="https://sourcesup.renater.fr/pixscape/fr.html"> here </a> with a user manual. <br>
+For <a href="https://cybergeo.revues.org/27862"> their article </a>, Sahraoui et al. (2016) developped a java software for landscape visibility analysis : <b> Pixscape </b>.<br>
+The .jar is available <a href="https://sourcesup.renater.fr/pixscape/fr.html"> here </a> with a user manual. <br>
 <b> pixscapeR </b> is a simple function in R, in order to use <b> Pixscape </b> viewshed application.
 
 ## Application
