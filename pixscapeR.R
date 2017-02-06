@@ -1,17 +1,3 @@
-
-setwd("~/Documents/these/analyse_R/pixscape/data/")
-wd = getwd()
-
-
-
-pixscape = "java -jar pixscape-1.0.jar"
-
-x = 950050.0
-y = 6508324.0
-
-zeye = 1.8
-zdest = 1
-
 project = "/projet2/projet2.xml"
 
 
