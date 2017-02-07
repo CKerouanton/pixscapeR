@@ -1,4 +1,4 @@
-project = "/projet2/projet2.xml"
+project = "yourprojectfolder/yourproject.xml"
 
 
 ###### parameters
@@ -24,21 +24,6 @@ pixscapeR = function(project, zeye, zdest, x, y) {
   temp = raster("projet2/temp.tif", proj4string = CRS("+init=epsg:2154"))
   return(temp)
 }
-
-
-
-library(maptools)
-test = raster("projet2/temp.tif", proj4string = CRS("+init=epsg:2154"))
-plot(test)
-test = readShapeSpatial("test/test.shp")
-alt = raster("projet2/dtm-5.0.tif")
-a = data.frame(x = x, y = y)
-a = SpatialPoints(a,proj4string = CRS("+init=epsg:2154"))
-
-plot(alt)
-plot(test, add = T)
-plot(a,col ="red", pch = 19, add = T)
-dev.off()
 
 
 
