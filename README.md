@@ -26,3 +26,7 @@ zdest = observed height (in meters)<br>
 ### Output
 
 The output is a raster file with the different zones the observer can observe from x,y.
+
+### Reference
+
+Sahraoui, Y., Vuidel, G., Foltête, J. C., & Joly, D. (2016). PixScape–un outil logiciel intégré pour l’analyse du paysage visible. Cybergeo: European Journal of Geography.
